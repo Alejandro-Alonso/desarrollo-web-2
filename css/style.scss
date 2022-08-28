@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-    color: var(--white);
+    color: var(--d-purple);
 }
 
 img,
@@ -78,6 +78,11 @@ p {
     &-w {
         background: var(--white);
         color: var(--l-purple);
+
+        &:hover {
+            background: var(--d-purple);
+            color: var(--white);
+        }
     }
 
     &-r {

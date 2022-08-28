@@ -160,7 +160,7 @@ a {
 }
 
 a:hover {
-  color: var(--white);
+  color: var(--d-purple);
 }
 
 img,
@@ -213,6 +213,11 @@ p {
 .button-w {
   background: var(--white);
   color: var(--l-purple);
+}
+
+.button-w:hover {
+  background: var(--d-purple);
+  color: var(--white);
 }
 
 .button-r {
